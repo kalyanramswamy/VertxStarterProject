@@ -22,6 +22,8 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.source.version>1.8</java.source.version>
+        <java.target.version>1.8</java.target.version>
         <vertx.version>3.4.1</vertx.version>
         <newrelic.version>5.9.0</newrelic.version>
     </properties>
