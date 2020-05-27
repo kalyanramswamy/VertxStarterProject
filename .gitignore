@@ -1,0 +1,9 @@
+bin/
+target/
+hs_err_pid6528.log
+*.log
+.classpath
+.project
+.settings
+/.idea
+*.iml
