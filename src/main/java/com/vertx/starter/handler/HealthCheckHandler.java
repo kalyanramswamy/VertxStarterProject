@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class HealthCheckHandler {
 	@Trace(metricName="GET /health_check", dispatcher=true)
-    public void healthCheck(RoutingContext routingContext) {
+    public static void healthCheck(RoutingContext routingContext) {
         routingContext.response().end("I AM OK 200");            
     }
 }

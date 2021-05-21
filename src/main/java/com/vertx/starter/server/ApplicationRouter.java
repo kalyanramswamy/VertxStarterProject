@@ -31,7 +31,7 @@ public class ApplicationRouter {
     }
 
     private void defineRoutes(Router router) {
-        router.get("/health").handler(healthCheckHandler::healthCheck);
+        router.get("/health").handler(HealthCheckHandler::healthCheck);
     }
 
     private void dependencyInjector() {
