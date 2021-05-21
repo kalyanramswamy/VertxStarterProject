@@ -30,7 +30,7 @@ public class Application extends AbstractVerticle {
         HttpServerOptions options = new HttpServerOptions();
         options.setCompressionSupported(true);
         options.setAcceptBacklog(10000).setSendBufferSize(4 * 1024).setReceiveBufferSize(4 * 1024);
-        HttpServer httpServer = vertx.createHttpServer(options);
+        httpServer = vertx.createHttpServer(options);
         httpServer.requestHandler(router).listen(ConfigManager.getConfig().getInteger(Constants.APPLICATION_SERVER_PORT));
     }
 
