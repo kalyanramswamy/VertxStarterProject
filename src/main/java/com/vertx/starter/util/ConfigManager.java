@@ -1,4 +1,4 @@
-package com.vertxtest.util;
+package com.vertx.starter.util;
 
 import io.vertx.core.json.JsonObject;
 

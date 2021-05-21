@@ -1,4 +1,4 @@
-package com.vertxtest.exception;
+package com.vertx.starter.exception;
 
 import lombok.Getter;
 import lombok.ToString;
